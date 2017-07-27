@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include amr_consultancy *.css
+recursive-include amr_consultancy *.csv
+recursive-include amr_consultancy *.html
+recursive-include amr_consultancy *.ico
+recursive-include amr_consultancy *.js
+recursive-include amr_consultancy *.json
+recursive-include amr_consultancy *.md
+recursive-include amr_consultancy *.png
+recursive-include amr_consultancy *.py
+recursive-include amr_consultancy *.svg
+recursive-include amr_consultancy *.txt
+recursive-exclude amr_consultancy *.pyc
